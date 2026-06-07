@@ -7,7 +7,7 @@ function CoffeeMachine() {
     const [berns, setBerns] = useState(250); // 250г
     const [milk, setMilk] = useState(1000); //1000мл
 
-    const [coffeeType, setCoffeeType] = useState('');
+    const [coffeeType, setCoffeeType] = useState('espresso');
     const [status, setStatus] = useState('idle');
 
     const recipes = {
@@ -139,7 +139,7 @@ function CoffeeMachine() {
                 }
                     onClick={startBrewing}
                     disabled={isStartDisabled}
-                    style={{backgroundColor: (!enoughResourses() && status === 'idle') ? 'red' : 'wheat'
+                    style={{backgroundColor: (!enoughResourses() && status === 'idle') ? 'red' : 'rgb(194, 161, 118)'
                     }}
                 >
                     Старт

@@ -48,7 +48,6 @@ h1{
 }
 
 .startBtn{
-    background-color: rgb(194, 161, 118);
     margin: 15px;
     padding: 15px;
     border: 2px solid wheat;
@@ -56,18 +55,14 @@ h1{
     color: black;
     font-size: 22px;
     font-weight: bold;
-
-
 }
 .disabled{
-
+    background-color: red;
 }
 .coffeeGrid{
     display: flex;
     justify-content: center;
-    
-
-}
+    }
 .coffeeCard{
     display: flex;
     align-items: center;
